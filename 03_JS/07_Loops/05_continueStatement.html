@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Continue</title>
+    <style>
+        p{
+            text-shadow: 5px 5px 5px crimson;
+            border: 3px solid salmon;;
+            border-radius: 50%;
+            background-color: aquamarine;
+            text-align: center;
+            width: 30%;
+            padding: 30px 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Demonstration of Continue</h2>
+    <script>
+        let i = 1;
+        while (i < 10) {
+            if(i%2==0){
+                i++;
+                continue;
+            }
+            document.write(`<p>This is paragraph ${i}.</p>`);
+            i++;
+        }
+    </script>
+</body>
+</html>

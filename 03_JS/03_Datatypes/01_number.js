@@ -1,0 +1,10 @@
+console.log("Understand Number Data Type");
+console.log("Simple Number");
+let num_a = 56/6;
+console.log("a=",num_a);
+console.log("Infinity Number");
+let num_b = 1/0;
+console.log("b=",num_b);
+console.log("Not a Number Nan");
+let num_c = "Hello"/3;
+console.log("c=",num_c);

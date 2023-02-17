@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        a{
+            color:black;
+            background-color: aqua;
+        }
+        a:hover{
+            background-color: darkgray;
+        }
+        a:visited{
+            background-color: tomato;
+            color: #000044;
+        }
+    </style>
+    <title>Link Pseudo Class</title>
+</head>
+<body>
+    <a href="https://www.amazon.in/" target="_blank">Click to Visit Amazon</a><br>
+    <a href="https://www.zomato.com/" target="_blank">Click to Visit Zomato</a><br>
+    <a href="https://www.wikipedia.org/" target="_blank">Click to Visit Wikipedia</a>
+    <script>
+        let elem = document.querySelectorAll("a[target='_blank']");
+        for(let i of elem){
+            alert(i);
+        }
+    </script>
+</body>
+</html>

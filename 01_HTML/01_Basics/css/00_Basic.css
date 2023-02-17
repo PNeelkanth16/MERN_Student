@@ -1,0 +1,56 @@
+body {
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+    background-color: darkgrey;
+    border: 2px inset black;
+    color:brown;
+}
+h1,h2,h3,h4,h5,h6 {
+    color: forestgreen;
+}
+div {
+    padding: 5px;
+    margin: 5px;
+    background-color: thistle;
+    border: 2px dotted crimson;
+    color: slategray;
+}
+p {
+    padding: 5px;
+    margin: 5px;
+    background-color: bisque;
+    border: 2px solid yellow;
+    color:coral;
+}
+span{
+    padding: 2px;
+    margin: 1px;
+    background-color: cornsilk;
+    color: teal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+    padding: 5px;
+    margin: 5px;
+    color:firebrick;
+}
+ul {
+    padding: 5px;
+    margin: 5px;
+    background-color: ghostwhite;
+    border: 2px outset gold;
+    color: violet;
+}
+button {
+    padding: 5px;
+    margin: 5px;
+    background-color: thistle;
+    color: darkgoldenrod;
+}
+button:hover {
+    padding: 5px;
+    margin: 5px;
+    color: thistle;
+    background-color: darkgoldenrod;
+}

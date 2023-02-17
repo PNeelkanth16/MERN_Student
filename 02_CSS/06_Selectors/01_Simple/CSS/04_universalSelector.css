@@ -1,0 +1,45 @@
+*{
+    padding: 10px;
+}
+body{
+    border: 3px dotted crimson;
+    background-color:thistle;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline overline yellow 1px;    
+}
+div{
+    border: 3px inset khaki;
+    background-color: teal;
+    color: yellow;
+}
+p{
+    border: 3px ridge brown;
+    background-color: greenyellow;
+    color: darkcyan;
+}
+span{
+    border: 3px solid hotpink;
+    background-color: azure;
+    color: tomato;
+    padding: 0px;
+}
+.friend{
+    border: 3px outset aliceblue;
+    background-color: steelblue;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.cl_span{
+    border: 3px dotted chocolate;
+    background-color:black;
+    color: gold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#unique{
+    border: 3px double hotpink;
+    background-color: yellow;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

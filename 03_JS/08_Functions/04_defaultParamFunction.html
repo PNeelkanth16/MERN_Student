@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Function Default Parameters</title>
+    <style>
+        h1{
+            color: darkcyan;
+            background-color: wheat;
+            text-align: center;
+            padding: 10px;
+            font-size: xx-large;
+            text-decoration: overline underline;
+        }
+    </style>
+</head>
+<body>
+    <h2>Describing Function Default Parameters</h2>
+    <script>
+        function welcome(name="Anonymous") {
+            document.write(`<h1>Welcome ${name}, to Javascript World</h1>`);
+        }
+        let user = prompt("Enter you Name","");
+        welcome(user);
+    </script>
+</body>
+</html>

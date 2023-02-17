@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions Parameters</title>
+    <style>
+        p{
+            color: blue;
+            background-color: wheat;
+            text-align: center;
+            border: 5px double darkblue;
+            padding: 10px;
+            font-size: xx-large;
+        }
+    </style>
+</head>
+<body>
+    <h2>Describing Function Parameters</h2>
+    <script>
+        function square(num, txt="No Message provided") {
+            let sqr = num*num;
+            document.write(`<p>Square of ${num} is ${sqr}</p>`);
+            document.write(txt);
+        }
+        for(let i=1;i<=5;i++){
+            if(i%2==0){
+                square(i, "Even Number");
+            }else{
+                square(i);
+            }
+        }
+    </script>
+</body>
+</html>

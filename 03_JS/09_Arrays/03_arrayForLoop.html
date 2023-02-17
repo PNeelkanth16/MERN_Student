@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Basics</title>
+    <style>
+        p{
+            color: sandybrown;
+            background-color:darkcyan;
+            width: 30%;
+            text-align: center;
+            border: 3px inset skyblue;
+            border-radius: 10px;
+            padding: 10px;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <h2>Demonstration for Javascript Array For In/For Of Loop</h2>
+    <script>
+        let arr = []
+        arr = ["HTML","CSS","JS","MongoDB","ExpressJs","React","Node"]
+        length = arr.length;
+        alert("Length of Array on page is "+length)
+        document.write("<h3>For of Loop</h3>")
+        for(let i of arr){
+            if(i<3){
+                document.write(`<p>We learnt ${i}</p>`)
+            }else{
+                document.write(`<p>We will learn ${i}</p>`)
+            }
+        }
+        document.write("<h3>For in Loop</h3>")
+        for(let j in arr){
+            if(j<3){
+                document.write(`<p>We learnt ${arr[j]}</p>`)
+            }else{
+                document.write(`<p>We will learn ${arr[j]}</p>`)
+            }
+        }
+    </script>
+</body>
+</html>

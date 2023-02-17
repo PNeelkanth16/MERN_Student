@@ -1,0 +1,43 @@
+*{
+    font-weight: bold;
+}
+div{
+    margin: 10px;
+    padding: 10px;
+}
+.c1{
+    color:skyblue;
+}
+.c2{
+    color:crimson;
+}
+.c3{
+    color:forestgreen;
+}
+.c4{
+    color: #331a12;
+}
+.c5{
+    color: #a03a92;
+}
+.c6{
+    color: #152673;
+}
+.c7{
+    color: rgb(123,132,221);
+}
+.c8{
+    color: rgb(72,188,122);
+}
+.c9{
+    color:rgba(72,188,122,0.8);
+}
+.c10{
+    color: hsl(22, 53%, 17%);
+}
+.c11{
+    color:hsl(221, 83%, 57%);
+}
+.c12{
+    color: hsla(221, 83%, 57%, 0.5);
+}

@@ -1,0 +1,26 @@
+body {
+    background-color: slateblue;
+}
+
+div {
+    border: 4px double white;
+    background-color: thistle;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+p {
+    font-size: x-large;
+    color: crimson;
+}
+
+ol {
+    text-align: left;
+    font-weight: bold;
+}
+
+li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: seagreen;
+}

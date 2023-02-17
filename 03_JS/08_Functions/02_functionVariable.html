@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions Variable</title>
+</head>
+<body>
+    <h2>Describing Function Variable</h2>
+    <script>
+        let outer = 1;
+        // let local = 5; 
+        function even() {
+            let local = 1;
+            document.write("<p>"+local+" is Local Variable.</p>")
+            document.write("<p>"+outer+" is Outer Variable.</p>")
+            local++;
+        }
+        for(let i=1;i<=5;i++){
+            if(i%2==0){
+                even();
+            }else{
+                document.write("<p>Hello!... I'm "+i+"</p>");
+            }
+            outer+=1;
+            // local+=1;
+        }
+    </script>
+</body>
+</html>

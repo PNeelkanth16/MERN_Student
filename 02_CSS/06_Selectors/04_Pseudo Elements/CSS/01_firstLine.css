@@ -1,0 +1,8 @@
+p::first-line{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: aquamarine;
+}
+p::first-letter{
+    font-size: x-large;
+    color: red;
+}

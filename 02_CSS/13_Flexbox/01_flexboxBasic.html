@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../01_HTML/01_Basics/css/00_Basic.css">
+    <title>CSS Flexbox</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .flex-row{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+        }
+        .flex-column{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-column">
+        <div>
+            <h2>HTML is a markup Language</h2>
+            <p>HTML is used for developing WebPages. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia vel autem dolor sunt veniam distinctio, debitis est officia blanditiis corrupti, molestias necessitatibus libero praesentium obcaecati quod, suscipit eligendi tempore temporibus?</p>
+        </div>
+        <div>
+            <h2>CSS</h2>
+            <p>CSS is used for designing WebPages.</p>
+        </div>
+        <div>
+            <h2>JS is Scripting Language</h2>
+            <p>JS is used for developing dynamic WebPages.</p>
+        </div>
+    </div>
+    <div class="flex-row">
+        <div>
+            <h2>HTML is a markup Language</h2>
+            <p>HTML is used for developing WebPages.</p>
+        </div>
+        <div>
+            <h2>CSS</h2>
+            <p>CSS is used for designing WebPages.</p>
+        </div>
+        <div>
+            <h2>JS is Scripting Language</h2>
+            <p>JS is used for developing dynamic WebPages.</p>
+        </div>
+    </div>
+</body>
+</html>

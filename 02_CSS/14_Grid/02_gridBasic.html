@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../01_HTML/01_Basics/css/00_Basic.css">
+    <title>CSS Grid</title>
+    <style>
+        .grid-demo{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr) repeat(2, 2fr) repeat(2, 3fr);
+            grid-template-rows: 1fr 3fr;
+            /* row-gap: 100px;
+            column-gap: 50px; */
+        }
+        .test{
+            grid-column: 3;
+            grid-row: 2;
+            background-color: rgba(23, 56, 89, 0.2);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="grid-demo">
+        <div class="test">
+            <h2>HTML is a markup Language</h2>
+            <p>HTML is used for developing WebPages.</p>
+        </div>
+        <div>
+            <h2>CSS</h2>
+            <p>CSS is used for designing WebPages.</p>
+        </div>
+        <div class="test">
+            <h2>JS is <span>Special</span> Scripting Language</h2>
+            <p>JS is used for developing dynamic WebPages.</p>
+        </div>
+        <div>
+            <h2>HTML is a markup Language</h2>
+            <p>HTML is used for developing WebPages.</p>
+        </div>
+        <div>
+            <h2>CSS</h2>
+            <p>CSS is used for designing WebPages.</p>
+        </div>
+        <div>
+            <h2>JS is Scripting Language</h2>
+            <p>JS is used for developing dynamic WebPages.</p>
+        </div>
+        <div>
+            <h2>HTML is a markup Language</h2>
+            <p>HTML is used for developing WebPages.</p>
+        </div>
+        <div>
+            <h2>CSS</h2>
+            <p>CSS is used for designing WebPages.</p>
+        </div>
+        <div>
+            <h2>JS is Scripting Language</h2>
+            <p>JS is used for developing dynamic WebPages.</p>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+*{
+    padding: 10x;
+    margin: 10px;
+}
+h2{
+    color: hsl(54, 23%, 54%);
+    text-align: center;
+}
+div{
+    color:seagreen;
+    text-align: left;
+}
+p{
+    color: rgb(54, 23, 54);
+    text-align: right;
+}

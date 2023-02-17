@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prompt Dialog</title>
+    <style>
+        .confirm{
+            width: 40%;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            border: 4px double yellowgreen;
+            background-color: lightcoral;
+            color: crimson;
+            text-align: center;
+            padding: 3px 10px;
+        }
+    </style>
+    <script>
+        let val = prompt("What's your Age?", 18);
+        if (val < 18) {
+            document.write("<div class='confirm'><h5>You are Small</h5></div>")
+        }else if(val > 50){
+            document.write("<div class='confirm'><h1>You are Big</h1></div>")
+        }else{
+            document.write("<div class='confirm'><h3>You are OK</h3></div>")
+        }
+</script>
+</head>
+<body>
+</body>
+</html>

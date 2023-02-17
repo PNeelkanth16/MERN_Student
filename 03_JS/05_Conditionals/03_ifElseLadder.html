@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .equal_str{
+            padding: 5px;
+            border: 3px dotted salmon;
+            background-color: lightgreen;
+            color: darkgreen;
+            text-align: center;
+            display: inline-block;
+            margin: 5px;
+            text-decoration: underline wavy 2px crimson;
+        }
+        .equal_bool{
+            padding: 5px;
+            border: 3px dotted salmon;
+            background-color: lightgreen;
+            color: darkgreen;
+            text-align: right;
+            /* display: inline-block; */
+            margin: 5px;
+            text-decoration: underline wavy 2px crimson;
+        }
+        .unequal{
+            text-shadow: 3px 3px 5px yellow;
+            color: white;
+            padding: 5px;
+            border: 3px solid darkcyan;
+            background-color: crimson;
+        }
+    </style>
+    <title>If Else Condition</title>
+</head>
+<body>
+    <h2>This will demonstrate you the implementation of If Else statement</h2>
+    <h4>We will compare boolean as well as String</h4>
+    <script>
+        let bool_a = true;
+        let bool_b = false;
+        let str_a = "Javascript";
+        let str_b = "javascript";
+        if (str_a == str_b) {
+            document.write("<p class='equal_str'>str_a="+str_a+" & str_b="+str_b+" are equal</p>")
+        }else if (bool_a != bool_b){
+            document.write("<p class='equal_bool'>bool_a="+bool_a+" & bool_b="+bool_b+" are equal</p>")
+        }
+        else{
+            document.write("<p class='unequal'>str_a="+str_a+" & str_b="+str_b+" bool_a="+bool_a+" & bool_b="+bool_b+" both are unequal</p>")
+        }
+    </script>
+</body>
+</html>

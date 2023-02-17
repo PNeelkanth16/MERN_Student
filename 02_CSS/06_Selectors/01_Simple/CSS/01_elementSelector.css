@@ -1,0 +1,27 @@
+body{
+    border: 3px dotted crimson;
+    background-color:thistle;
+    padding: 10px;
+}
+h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: underline overline yellow 1px;    
+    padding: 10px;
+}
+div{
+    border: 3px inset khaki;
+    background-color: teal;
+    color: yellow;
+    padding: 10px;
+}
+p{
+    border: 3px ridge brown;
+    background-color: greenyellow;
+    color: darkcyan;
+    padding: 10px;
+}
+span{
+    border: 3px solid hotpink;
+    background-color: azure;
+    color: tomato;
+}

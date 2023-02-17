@@ -1,0 +1,49 @@
+use test
+
+***************
+
+db.stats()
+This can be used to get statistics of the database you are using.
+
+***************
+
+db.dataTypes.insertOne({text: "Some Short Text", textLong: "Also some more long text"})
+
+db.dataTypes.insertOne({trueBoolean: true, falseBoolean: false})
+
+db.dataTypes.insertOne({defaultNumber: 14})
+
+db.dataTypes.insertOne({integerNumber: NumberInt(114)})
+
+db.dataTypes.insertOne({longNumber: NumberLong(46565116599781031114)})
+
+db.dataTypes.insertOne({decimalNumber: NumberDecimal(465.523666)})
+
+db.dataTypes.insertOne({embedded: { name: "Neelkanth", surname: "Patel"}})
+
+db.dataTypes.insertOne({array: ["A", "B", "C"]})
+
+db.dataTypes.insertOne({date: new Date()})
+
+db.dataTypes.insertOne({timestamp: new Timestamp()})
+
+typeof db.dataTypes.findOne({}).text
+
+typeof db.dataTypes.findOne({trueBoolean : { $exists: true }}).trueBoolean
+
+typeof db.dataTypes.findOne({defaultNumber : { $exists: true }}).defaultNumber
+
+typeof db.dataTypes.findOne({integerNumber : { $exists: true }}).integerNumber
+
+typeof db.dataTypes.findOne({longNumber : { $exists: true }}).longNumber
+
+typeof db.dataTypes.findOne({decimalNumber : { $exists: true }}).decimalNumber
+
+typeof db.dataTypes.findOne({embedded : { $exists: true }}).embedded
+
+typeof db.dataTypes.findOne({array : { $exists: true }}).array
+
+typeof db.dataTypes.findOne({date : { $exists: true }}).date
+
+typeof db.dataTypes.findOne({timestamp : { $exists: true }}).timestamp
+

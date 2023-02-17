@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Basics</title>
+    <style>
+        p{
+            color: hotpink;
+            background-color:wheat;
+            width: 30%;
+            text-align: center;
+            border: 3px dotted skyblue;
+            border-radius: 30px;
+            padding: 30px;
+            font-weight: bolder;
+            font-size: xx-large;
+        }
+    </style>
+</head>
+<body>
+    <h2>Demonstration for Javascript Array For Each</h2>
+    <script>
+        function display(value, index) {
+            document.write(`<p>Element at index ${index} is ${value}</p>`)
+        }
+        let arr = []
+        arr = ["HTML","CSS","JS","MongoDB","ExpressJs","React","Node"]
+        arr = arr.splice(3,2);
+        arr.forEach(display)
+    </script>
+</body>
+</html>

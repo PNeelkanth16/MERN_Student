@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table, th, td{
+            border: 1px inset teal;
+            /* border-collapse: collapse; */
+        }
+        th, td{
+            text-align: center;
+            padding: 5px;
+        }
+        th{
+            text-decoration: underline;
+            color: mediumorchid;
+            background-color: rgba(190, 0, 50, 0.2);
+        }
+        .full_size{
+            width: 100%;
+            border-spacing: 5px;
+        }
+    </style>
+    <title>Table Span Style</title>
+</head>
+<body>
+    <h2>This Webpage demonstrate HTML table span property.</h2>
+    <table class="full_size">
+        <tr>
+            <th>Details</th>
+            <th colspan="2">Name</th>
+            <th>Technology</th>
+            <th class="big_col">Email</th>
+        </tr>
+        <tr>
+            <th rowspan="2">Person</th>
+            <td>Madhav</td>
+            <td>Patel</td>
+            <td>JAVA</td>
+            <td>abc123@gmail.com</td>
+        </tr>
+        <tr>
+            <!-- <th>Person 2</th> -->
+            <td>Ram</td>
+            <td>Vyas</td>
+            <td>MERN Full Stack</td>
+            <td>ram1675@yahoo.com</td>
+        </tr>
+    </table>
+</body>
+</html>

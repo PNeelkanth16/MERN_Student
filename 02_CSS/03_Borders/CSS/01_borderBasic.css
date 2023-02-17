@@ -1,0 +1,22 @@
+*{
+    padding: 10px;
+    margin: 10px;
+}
+body{
+    /* border-width: 2px; */
+    border-width: 4px;
+    border-style:double;
+    border-color: violet;
+    border-radius: 80px;
+}
+h2{
+    border: 1px solid burlywood;
+    /* border: 3px outset black */
+}
+div{
+    border: 5px dotted rosybrown;
+}
+p{
+    border: 6px ridge cadetblue;
+    border-radius: 10%;
+}

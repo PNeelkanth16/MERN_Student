@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inner & Outer HTML</title>
+    <style>
+        #outerHTML{
+            background-color: bisque;
+            color: violet;
+        }
+        #innerHTML {
+            background-color: thistle;
+            color: teal;
+        }
+        span{
+            background-color: darkgray;
+            color: crimson;
+        }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <p id="innerHTML">
+            I am a Paragraph having id innerHTML.
+        </p>
+        <p id="outerHTML">
+            I am a Paragraph having id outerHTML.
+        </p>
+    </div>
+    <script>
+        let para1 = document.getElementById('innerHTML');
+        para1.innerHTML = "I got Changed using Inner HTML";
+        let para2 = document.getElementById('outerHTML');
+        para2.outerHTML = "I got Changed using Outer HTML";
+        // let newPara = document.createElement("p");
+        // newPara.innerHTML = "I'm new Here";
+        // console.log(newPara);
+        // let parentDiv = document.getElementById('parent');
+        // parentDiv.insertBefore(newPara, para1);
+    </script>
+</body>
+</html>

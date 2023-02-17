@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array Basics</title>
+    <style>
+        p{
+            color: sandybrown;
+            background-color:darkcyan;
+            width: 30%;
+            text-align: center;
+            border: 3px inset skyblue;
+            border-radius: 10px;
+            padding: 10px;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <h2>Demonstration for Javascript Array Length</h2>
+    <script>
+        let arr = []
+        arr = ["HTML","CSS","JS","MongoDB","ExpressJs","React","Node"]
+        length = arr.length;
+        alert("Length of Array on page is "+length)
+        for(let i=0;i<length;i++){
+            if(i<3){
+                document.write(`<p>We learnt ${arr[i]}</p>`)
+            }else{
+                document.write(`<p>We will learn ${arr[i]}</p>`)
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+[custom]{
+    text-align: right;
+    background-color: aquamarine;
+    border: 3px solid greenyellow;
+    color: red;
+}
+[custom=custom]{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline wavy darkgreen;
+    background-color: skyblue;
+    border: 3px dotted firebrick;
+    color: white;
+    font-weight: bolder;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

@@ -1,0 +1,106 @@
+1. Show All Database
+
+show dbs
+
+This command will list down all the available database running on the mongoDB server.
+
+*************************************
+
+2. Use/Create Database
+
+use db_name
+
+This command will create the new database if it not exists otherwise use the particular database for CRUD operation.
+
+*************************************
+
+3. Create Collection
+
+a. Implicitly by using db.collection_name.insertOne({...})
+
+This will create collection if it not exists otherwise enter the data into already created collection.
+
+b. Explicitly by using db.createCollection('collection_name')
+
+This will create a new empty collection.
+
+*************************************
+
+4. Create Document
+
+a. db.collection_name.insertMany([{}, {}, {}, ...])
+
+This will insert array of document into the collection.
+
+*************************************
+
+5. Read Document
+
+a. db.collection_name.find()
+
+This will find all the documents available in the collection.
+***It returns a cursor not array of document.
+For retrieving all the document use toArray() or foreach() method with find().***
+
+b. db.collection_name.find(filter)
+
+Find the Document which match the query provided.
+*** We can use different kind of operators to perform operations on queries. ***
+
+c. db.collection_name.findOne(filter)
+
+Find the first document which match the following query.
+
+d. db.collection_name.find(filter, Projection)
+
+This is known as Projection in MongoDB. If we need to retrieve particular fields of collection then this is used.
+
+*************************************
+
+6. Update Document
+
+a. db.collection_name.updateOne(filter, update)
+
+This will update the first document which match the given criteria with the new_data.
+
+b. db.collection_name.updateMany(filter, update)
+
+This will update all the documents which match the given criteria with the new_data.
+
+c. db.collection_name.replaceOne(filter, update)
+
+This will replace the first matching document with the new_data.
+
+d. db.collection_name.update(filter, update)
+
+*** Be careful while using this. Try avoiding using this. ***
+
+*************************************
+
+7. Delete Document
+
+a. db.collection_name.deleteOne(filter)
+
+Delete the first document with matching query.
+
+b. db.collection_name.deleteMany(filter)
+
+Delete all the document with matching query.
+
+*************************************
+
+8. Delete Collection
+
+db.collection_name.drop()
+
+This will delete the whole collection.
+
+*************************************
+
+9. Delete Database
+
+db.dropDatabase()
+
+This will delete the whole database.
+
+*************************************

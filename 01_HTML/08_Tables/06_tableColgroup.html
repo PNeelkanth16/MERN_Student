@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        table, th, td{
+            border: 2px dotted cadetblue;
+            border-collapse: collapse;
+        }
+        th, td{
+            padding: 5px;
+        }
+        .col_grp{
+            background-color: aquamarine;
+        }
+        /* .hidden{
+            visibility: collapse;
+        } */
+    </style>
+    <title>Table Colgroup</title>
+</head>
+<body>
+    <h2>This Webpage demonstrate HTML table with borders.</h2>
+    <table>
+        <colgroup>
+            <col span="1" class="hidden">
+            <col span="2" class="col_grp">
+        </colgroup>
+        <tr>
+            <th>Headings</th>
+            <th>Column Heading 1</th>
+            <th>Column Heading 2</th>
+            <th>Column Heading 3</th>
+        </tr>
+        <tr>
+            <th>Row Heading 1</th>
+            <td>Row-1 Data-1</td>
+            <td>Row-1 Data-2</td>
+            <td>Row-1 Data-3</td>
+        </tr>
+        <tr>
+            <th>Row Heading 2</th>
+            <td>Row-2 Data-1</td>
+            <td>Row-2 Data-2</td>
+            <td>Row-2 Data-3</td>
+        </tr>
+        <tr>
+            <th>Row Heading 3</th>
+            <td>Row-3 Data-1</td>
+            <td>Row-3 Data-2</td>
+            <td>Row-3 Data-3</td>
+        </tr>
+        <tr>
+            <th>Row Heading 4</th>
+            <td>Row-4 Data-1</td>
+            <td>Row-4 Data-2</td>
+            <td>Row-4 Data-3</td>
+        </tr>
+    </table>
+</body>
+</html>
